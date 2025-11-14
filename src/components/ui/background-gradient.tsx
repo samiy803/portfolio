@@ -14,9 +14,9 @@ export default function BackgroundGradient() {
         const interval = setInterval(() => {
             if (num > 2 * Math.PI) setNum(0);
             setNum(num + 0.1);
-            setScale1(1 + Math.sin(num) * 0.1);
-            setScale2(1 + Math.sin(num + Math.PI/6) * 0.1);
-        }, 150);
+            setScale1(1 + Math.sin(num) * 0.2);
+            setScale2(1 + Math.sin(num + Math.PI/2) * 0.2);
+        }, 145);
         return () => clearInterval(interval);
     }, [num])
 
@@ -27,7 +27,7 @@ export default function BackgroundGradient() {
             body.addEventListener("mousemove", (e) => {
                 const x = e.clientX / window.innerWidth - 0.5;
                 const y = e.clientY / window.innerHeight - 0.5;
-                setTransform([-x*30, -y*30]);
+                setTransform([-x*35, -y*35]);
             });   
         }
     }, []);

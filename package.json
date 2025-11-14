@@ -12,11 +12,13 @@
   "dependencies": {
     "@fontsource/lilita-one": "^5.0.20",
     "@fontsource/poppins": "^5.0.14",
+    "@types/react-helmet": "^6.1.11",
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.10",
     "mini-svg-data-uri": "^1.4.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {

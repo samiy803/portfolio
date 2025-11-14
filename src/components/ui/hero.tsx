@@ -9,7 +9,7 @@ export default function Hero() {
             <div className="text-gray-500 text-sm mb-2">HOME</div>
             <div>
                 <h1 className='text-8xl font-medium'>
-                    Hi, I'm <span style={{color}}>Sami</span>, a<br /> full stack developer</h1>
+                    Hi, I'm <span style={{color}}>Sami</span>, a<br /> full-stack developer</h1>
             </div>
         </div>
     </div>
